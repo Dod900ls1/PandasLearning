@@ -40,7 +40,6 @@ def DataFrame_Experements():
     print(df1.where(df2).dropna().head())
     print("------------------------------------------------------------------------------")
     print(df1[(df1["volume"] > 70000000) & (df1["high"] > 60.4)].head())
-    print("Nothing")
 
 
 DataFrame_Experements()
